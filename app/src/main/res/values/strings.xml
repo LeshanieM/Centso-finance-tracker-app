@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CentsoApp</string>
+
+        <string-array name="category_array">
+            <item>Food</item>
+            <item>Salary</item>
+            <item>Transport</item>
+            <item>Interest income</item>
+            <item>Bills</item>
+            <item>Other Income</item>
+            <item>Other Expense</item>
+        </string-array>
+
+        <string-array name="type_array">
+            <item>Income</item>
+            <item>Expense</item>
+        </string-array>
+
+
+</resources>

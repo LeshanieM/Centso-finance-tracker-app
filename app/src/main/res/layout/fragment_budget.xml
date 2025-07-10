@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/budgetLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="@color/white">
+
+    <!-- Display the current monthly budget -->
+    <TextView
+        android:id="@+id/tvBudget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monthly Budget: Rs. 0.00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Display total amount spent -->
+    <TextView
+        android:id="@+id/tvSpent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spent: Rs. 0.00"
+        android:textSize="18sp"
+        android:textColor="@color/red"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Progress bar showing how much of the budget is used -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:max="100"
+        android:progress="0"
+        android:progressTint="@color/purple_500"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Button to set/update the budget -->
+    <Button
+        android:id="@+id/btnSetBudget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Budget"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp" />
+</LinearLayout>

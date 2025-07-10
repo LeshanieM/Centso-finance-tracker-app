@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M32,0 A32,32 0 1,1 31.999,0z" />
+
+    <!-- Coin stack (3 horizontal lines) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="0"
+        android:pathData="M22,38h20v2H22z
+                          M24,42h16v2H24z
+                          M26,46h12v2H26z" />
+
+    <!-- Money note (rectangle with inner lines) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M18,18h28v12H18z" />
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M30,20h4v8h-4z" />
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M22,24h4" />
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M38,24h4" />
+
+</vector>
